@@ -1,12 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.OBDScannerApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.OBDScanner" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="backgroundTint">@color/background</item>
+        <item name="backgroundColor">@color/background</item>
+        <item name="background">@color/background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="colorAccent">@color/accent</item>
         <item name="android:windowFullscreen">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.OBDScannerApp" parent="Base.Theme.OBDScannerApp" />
+    <style name="Theme.OBDScanner" parent="Base.Theme.OBDScanner" />
 </resources>
