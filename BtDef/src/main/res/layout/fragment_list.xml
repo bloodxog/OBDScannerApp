@@ -45,7 +45,7 @@
                 android:textColor="@color/blue" />
 
             <ImageButton
-                android:id="@+id/imBluetoothSearch"
+                android:id="@+id/imBluetoothOn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
